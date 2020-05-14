@@ -1,0 +1,36 @@
+{
+  "name" : "Auto Refresh Region Plugin",
+  "version" : "1.0",
+  "description" : "A simple dynamic action auto refresh plugin for classic and interactive report regions.",
+  "keywords" : ["dynamic action", "refresh"],
+  "homepage" : "http://webapplications.cloud/apex/f?p=251",
+  "bugs" : {
+    "url" : "https://github.com/xCite1986/APEX-Auto-Refresh-Region-Plugin/issues",
+    "email" : "alexander.prohaska@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Alex Prohaska",
+    "email" : "alexander.prohaska@gmail.com",
+    "url" : "http://webapplications.cloud/apex/f?p=251"
+    "twitter" : "ProhaskaAlex"
+    "donationUrl" : "http://paypal.me/AlexanderProhaska"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/xCite1986/APEX-Auto-Refresh-Region-Plugin.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1","18.0.0.0"],
+    "apex" : {
+      "versions" : ["20.1.0"],
+      "plugin" : {
+        "internalName" : "PLUGIN.DA.AUTO.REGION.REFRESH",
+        "type" : "dynamic action",
+        "demo" : "http://webapplications.cloud/apex/f?p=251",
+        "previewImage" : "https://github.com/xCite1986/APEX-Auto-Refresh-Region-Plugin/raw/master/2020-05-14_23h13_01.gif"
+      }
+    }
+  }
+}
