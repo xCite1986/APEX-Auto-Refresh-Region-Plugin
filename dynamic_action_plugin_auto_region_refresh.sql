@@ -47,7 +47,7 @@ end;
 prompt --application/shared_components/plugins/dynamic_action/plugin_da_auto_region_refresh
 begin
 wwv_flow_api.create_plugin(
- p_id=>wwv_flow_api.id(105266930174777922)
+ p_id=>wwv_flow_api.id(105266930174777925)
 ,p_plugin_type=>'DYNAMIC ACTION'
 ,p_name=>'PLUGIN.DA.AUTO.REGION.REFRESH'
 ,p_display_name=>'Auto Refresh Region'
